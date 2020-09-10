@@ -5,7 +5,7 @@ using System.Text;
 // Ulkoinen nimiavaruus Henkilosto
 namespace Henkilosto
 {
-    // Trainer-luokka perii Henkilo-luokan ominaisuudet
+    // Trainer-luokka perii Henkilo-luokan ominaisuudet, huom Henkilö Sali3-nimiavaruudessa
     class Trainer : Sali3.Henkilo
     {
         protected string ala;
