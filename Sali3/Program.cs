@@ -55,6 +55,7 @@ namespace Sali3
             Console.WriteLine("Ominaisuuksia on muutetu, uudet arvot ovat");
             Console.WriteLine("Ikä on nyt " + rasvaprosentti.Ika);
             Console.WriteLine("Sukupuoli on nyt " + rasvaprosentti.Sukupuoli);
+            rasvaprosentti.
         }   
     }
 }

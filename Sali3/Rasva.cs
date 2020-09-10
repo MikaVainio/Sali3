@@ -30,6 +30,9 @@ namespace Sali3
         // Sama voitaisiin tehdä lyhyemmin
         public string Vuotta { get; set; }
         public string Spuoli { get; set; }
+
+        // Ominaisuus voidaan myös tehdä sellaiseksi, että sitä voi vain lukea, muttei muuttaa
+        public string VuottaVanha { get; }
         
         // Oletusmuodostin
         public Rasvaprosentti()
