@@ -8,9 +8,9 @@ namespace Sali3
         {
             Console.WriteLine("Testataan Henkilo-olion luontia");
 
-            /*--------------------------------------------------
-             | TESTAUS ALKAA TÄSTÄ                              |
-             |--------------------------------------------------*/
+            /****************************************************
+             * TESTAUS ALKAA TÄSTÄ                              *
+             ****************************************************/
 
             // Testataan oletusmuodostin
 
