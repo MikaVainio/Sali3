@@ -31,9 +31,9 @@ namespace Sali3
             Punnitus punnitus = new Punnitus("10.9.2020", "70,5", "1,71");
 
             // Katsotaan olioiden ominaisuuksia
-            Console.WriteLine("Testi oletusmuodostimelle");
+            Console.WriteLine("Testi henkilön oletusmuodostimelle");
             henkilo.naytaHenkilo();
-            Console.WriteLine("Testi muodostimelle kaikilla param");
+            Console.WriteLine("Testi henkilön muodostimelle kaikilla parametreilla");
             henkilo1.naytaHenkilo();
             Console.WriteLine("Testi jäsenen muodostimelle");
             jasen.naytaJasen();
