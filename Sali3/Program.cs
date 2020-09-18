@@ -63,7 +63,7 @@ namespace Sali3
             Rasvaprosentti nainen = new Rasvaprosentti("Nainen","35");
             Console.WriteLine("Naisen rasvaprosentti on " + nainen.laskeRasva(1.6f, 59f));
 
-            // Testataan staatista rasvaprosenttimetodia
+            // Testataan staatista rasvaprosenttimetodia, huom. metodia kutsutaan suoraan luokasta
             Console.WriteLine("Rasvaprosentti: " + Rasvaprosentti.laskeRasva2(71.5f, 1.71f, 58f, "Mies"));
         }   
     }

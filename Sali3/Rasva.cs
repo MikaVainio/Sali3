@@ -64,7 +64,7 @@ namespace Sali3
             return rasva;
         }
 
-        // Staattinen metodi, jolla rasvaprosentti voidaan laskea ilman oliota
+        // Staattinen metodi, jolla rasvaprosentti voidaan laskea luomatta oliota
         static public float laskeRasva2(float paino, float pituus, float ika, string sukupuoli)
         {
             float bmi = paino / (pituus * pituus);
