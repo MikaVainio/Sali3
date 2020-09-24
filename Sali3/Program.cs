@@ -50,7 +50,7 @@ namespace Sali3
 
             Console.WriteLine("Jäsenen ikä on " + jika + ", bmi on " + jbmi + " ja rasvaprosentti on " + jrprosentti);
 
-            // Jako nolla testi
+            // Jako nollalla testi
 
             string nollapituus = "0";
             string paino = "71,5";
