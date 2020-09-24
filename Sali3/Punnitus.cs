@@ -7,11 +7,21 @@ namespace Sali3
 {
     class Punnitus
     {
-        //  Kaikki kentät merkkijonoja, koska syöte tulee näppäimistöstä
+        //  Kaikki kentät (field) merkkijonoja, koska syöte tulee näppäimistöstä
         protected string paiva;
         protected string paino;
         protected string pituus;
 
+        // Kenttiä vastaavat ominaisuudet (property)
+        public string Paino
+        {
+            get { return paino; }
+        }
+
+        public string Pituus
+        {
+            get { return pituus; }
+        }
         // Muodostin kaikilla parametreilla
         public Punnitus(string paiva, string paino, string pituus)
         {
